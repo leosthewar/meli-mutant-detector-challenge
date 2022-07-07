@@ -63,10 +63,10 @@ Para la base de datos se creo un cluster gratuito  tipo M0 en  Mongo Cloud Servi
 - Exponer y/o asegurar los servicios a través de un Api Gateway
 - Cache para las APIs
 
-### Consideraciones
+### Consideraciones ambientes 
 - En el servidor sandbox de Openshift las aplicaciones son apagadas automáticamente después de 12 horas, por lo cual es necesario levantarlas manualmente
 - El servidor Kafka tiene un tiempo de vida de 48 horas, pasado este tiempo se debe crear una nueva instancia  
-
-Al momento de realizar la entrega los servicios se entregan desplegados, pero dadas las consideraciones expuestas anteriormente, puede requerirse un redespliegue, en caso tal por favor solicitarlo vía correo electrónico.
+- Al ser ambientes gratuitos se tienen restricciones en cuanto a  recursos  como conexiones, CPUs, memoria y almacenamiento
+- Al momento de realizar la entrega los servicios se entregan desplegados pero dadas las consideraciones expuestas anteriormente, puede requerirse un redespliegue, en caso tal por favor solicitarlo vía correo electrónico.
 
  
