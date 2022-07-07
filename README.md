@@ -57,7 +57,11 @@ Para la base de datos se creo un cluster gratuito  tipo M0 en  Mongo Cloud Servi
 - https://github.com/leosthewar/mutant-detector-worker
 
 
-
+### ToDo
+- Configuraciones para DevOps  ( CI/CD )
+- Crear componente independiente (libreria o modulo) para logica del metodo isMutant  (paquete  com.meli.challenge.mutant.detector.validator)
+- Exponer y/o asegurar los servicios a través de un Api Gateway
+- Cache para las APIs
 
 ### Consideraciones
 - En el servidor sandbox de Openshift las aplicaciones son apagadas automáticamente después de 12 horas, por lo cual es necesario levantarlas manualmente
